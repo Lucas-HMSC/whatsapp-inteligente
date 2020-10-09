@@ -33,7 +33,7 @@
  # Aviso Legal
  * Este projeto não é afiliado, associado, autorizado, endossado ou de qualquer forma oficialmente conectado ao WhatsApp ou a qualquer de suas subsidiárias ou afiliadas. O site oficial do WhatsApp pode ser encontrado em https://whatsapp.com. "WhatsApp", bem como nomes, marcas, emblemas e imagens relacionados são marcas registradas de seus respectivos proprietários.
 ---
-# License
+# Licença
 
 Copyright 2020 Lucas H M S Carvalho
 
