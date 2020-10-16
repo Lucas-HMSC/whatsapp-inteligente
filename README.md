@@ -6,12 +6,10 @@
     * Ainda nessa mensagem, é realizado uma menção incluindo o número do gerador da mensagem. Sendo uma função nativa do WhatsApp, essa menção retorna o nome associado ao número. Caso o número esteja associado a um contato gravado no celular, é esse nome que aparecerá na menção. Caso não seja um contato, será exibido o nome que o usuário inseriu ao criar a conta do WhatsApp. Importante: o nome que resulta dessa menção pode ser diferente para o gerador da mensagem e para o receptor da mesma.
     * Exemplo da mensagem automática gerada quando recebe uma mensagem de alguém que ainda não está na fila: ![Mensagem Automática](https://i.imgur.com/yIWNDpM.png)
     * Para gerenciamento da fila, temos dois comandos:
-<ul>
-<img src="https://i.imgur.com/8MVqhLo.jpg" align="right" style="margin-left: 20px;" />    
-<li align="justify"><strong>###</strong> -> Ao enviar três vezes o #, o Script verifica se você foi o autor dessa mensagem, e caso retorne true, envia uma mensagem automática com os integrantes da fila (em forma de lista) no momento em que a função foi chamada. Caso a fila esteja vazia, a mensagem informará isso. A fila é composta pelos números das pessoas que enviaram a mensagem (evitando que uma pessoa ocupe duas posições na fila).</li>
-<li align="justify"><strong>&1</strong> -> Enviar o & seguido de um número, realizará a remoção desse número da fila de atendimento. Para evitar confusões, é aconselhável realizar a remoção da fila após enviar o comando acima (###) para confirmar a posição que deseja retirar da fila. Após ser feito essa remoção, a fila é ordenada automaticamente e é enviado duas mensagens automáticas como confirmação da remoção da fila: uma para você mesmo, outra para a pessoa que foi removida.</li>
-<li align="justify"><strong>OBS</strong>: O envio desses comandos, devido aos retornos visuais, é aconselhável ser enviado para um grupo em que somente você seja integrante.</li>
-</ul>
+       * **###** -> Ao enviar três vezes o #, o Script verifica se você foi o autor dessa mensagem, e caso retorne true, envia uma mensagem automática com os integrantes da fila (em forma de lista) no momento em que a função foi chamada. Caso a fila esteja vazia, a mensagem informará isso. A fila é composta pelos números das pessoas que enviaram a mensagem (evitando que uma pessoa ocupe duas posições na fila).
+       * **&1** -> Enviar o & seguido de um número, realizará a remoção desse número da fila de atendimento. Para evitar confusões, é aconselhável realizar a remoção da fila após enviar o comando acima (###) para confirmar a posição que deseja retirar da fila. Após ser feito essa remoção, a fila é ordenada automaticamente e é enviado duas mensagens automáticas como confirmação da remoção da fila: uma para você mesmo, outra para a pessoa que foi removida.
+       ![Fila de Atendimento](https://i.imgur.com/UPSvyNQ.png)
+       * **OBS**: O envio desses comandos, devido aos retornos visuais, é aconselhável ser enviado para um grupo em que somente você seja integrante.
 ---
 # Como Usar?
  * O uso desse Script, graças a ferramenta [WhatsApp-Web.js](https://github.com/pedroslopez/whatsapp-web.js), tem a mesma interface visual que o WhatsApp Web convencional.
