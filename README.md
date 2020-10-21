@@ -2,7 +2,7 @@
     <h2>Fila de Atendimento no WhatsApp com NodeJS</h2>
     <hr>
     <ul>
-        <li>Script desenvolvido a partir da ferramenta <a href="https://github.com/pedroslopez/whatsapp-web.js">WhatsApp-Web.js</a>, com essas características:</li>
+        <li>Script desenvolvido a partir da ferramenta <a href="https://github.com/pedroslopez/whatsapp-web.js" target="_blank">WhatsApp-Web.js</a>, com essas características:</li>
         <ul>
             <li align="justify">Criar e gerenciar a fila de atendimento, de acordo com a ordem de chegada (a mensagem recebida ativa um evento, e o mesmo realiza uma verificação se o número gerador dessa mensagem está fila, caso não esteja, é inserido e retorna uma mensagem com a posição que ele obteve). Mensagens geradas em grupos são desconsideradas.</li>
             <li align="justify">Junto com a mensagem incluindo a posição da fila que o gerador da mensagem obteve, há também uma saudação dinâmica (Bom dia, Boa tarde ou Boa noite, de acordo com o horário atual do computador onde o Script foi iniciado).</li>
