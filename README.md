@@ -46,7 +46,7 @@
         <ul>
             <li>No arquivo "Iniciar.bat", a primeira linha deve ser editada para inserir o caminho da pasta onde o Script foi colado. A segunda linha nao deve ser modificada;</li>
             <li>No arquivo "Atalho.vbs", a segunda linha deve ser editada para inserir o caminho que leve ao arquivo acima, o "Iniciar.bat". Após editar e salvar, clique para enviar um atalho para a sua pasta de preferência. Por exemplo, Area de Trabalho.</li>
-            <li>Com o atalho criado, edite o nome dele como preferir. Clique com o botão direto para ver as Propriedades do atalho. Selecione 'Alterar ícone'. Caminhe até a pasta onde se encontra o arquivo "Icone.ico" e escolha-o. </li>
+            <li>Com o atalho criado, edite o nome dele como preferir. Clique com o botão direito para ver as Propriedades do atalho. Selecione 'Alterar ícone'. Caminhe até a pasta onde se encontra o arquivo "Icone.ico" e escolha-o. </li>
         </ul>
         <li>Confirme os procedimentos e seu atalho WhatsApp Web estará pronto. </li>
     </ul>
