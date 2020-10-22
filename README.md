@@ -11,6 +11,7 @@
             <p align="center">
                 <figure>
                     <img src="Imagens/Exemplo_Mensagem_Automática.jpg" alt="Exemplo de Mensagem Automática" />
+                    <br />
                     <figcaption>Nesse caso, meu contato estava presente na lista de contatos. Se não estivesse, apareceria 'Lucas Carvalho'.</figcaption>
                 </figure>
             </p>
