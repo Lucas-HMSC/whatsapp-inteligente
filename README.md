@@ -12,7 +12,7 @@
                 <figure>
                     <img src="Imagens/Exemplo_Mensagem_Automática.jpg" alt="Exemplo de Mensagem Automática" />
                     <br />
-                    <figcaption>Nesse caso, meu contato estava presente na lista de contatos. Se não estivesse, apareceria 'Lucas Carvalho'.</figcaption>
+                    <figcaption>Nesse caso, meu número estava presente na lista de contatos. Se não estivesse, apareceria 'Lucas Carvalho' (nome atribuído a minha conta).</figcaption>
                 </figure>
             </p>
             <li>Para gerenciamento da fila, temos dois comandos:</li>
