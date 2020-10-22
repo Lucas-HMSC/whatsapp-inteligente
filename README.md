@@ -8,7 +8,7 @@
             <li align="justify">Junto com a mensagem que inclui a posição da fila, há, também, uma saudação dinâmica, na qual, cumprimentos como bom dia, boa tarde e boa noite são inseridos conforme o horário atual do computador aonde o Script foi iniciado.</li>
             <li align="justify">Nessa mesma mensagem, é inserido uma menção com o número do gerador da mensagem. Sendo uma função nativa do WhatsApp, esse processo retorna o nome associado ao número. Caso esteja presente na lista de contatos, será esse o nome que aparecerá na mensagem automática. Caso não, será exibido o nome que o usuário inseriu ao criar a conta do WhatsApp. <strong>Importante:</strong> o nome que resulta dessa menção pode ser diferente para o gerador da mensagem e para o receptor da mesma.</li>
             <li align="justify">Exemplo da mensagem automática gerada quando recebe uma mensagem de alguém que ainda não está na fila:</li>
-            <div style="align: center;">
+            <div align="center">
                 <figure>
                     <img src="Imagens/Exemplo_Mensagem_Automática.jpg" alt="Exemplo de Mensagem Automática" />
                     <br />
