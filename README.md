@@ -34,8 +34,10 @@
                 <a href="https://nodejs.org" target="_blank">https://nodejs.org</a>
             </li>
             <li>WhatsApp-Web.js (via terminal)<br />
-                <em>npm i whatsapp-web.js</em> <br />
-                <em>npm i qrcode-terminal</em>
+                ```bash
+                npm i whatsapp-web.js
+                npm i qrcode-terminal
+                ```
             </li>
         </ol>
     </ul>
